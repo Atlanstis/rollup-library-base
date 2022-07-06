@@ -1,0 +1,28 @@
+{
+  "name": "rollup-library-base",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "description": "一个基于 rollup 打包的类库模板。",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest --no-cache --watchAll --coverage"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@types/jest": "^28.1.4",
+    "jest": "^28.1.2",
+    "rollup": "^2.75.7",
+    "rollup-plugin-cleandir": "^2.0.0",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "ts-jest": "^28.0.5",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {}
+}
