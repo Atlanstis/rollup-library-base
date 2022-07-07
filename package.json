@@ -13,6 +13,16 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "rollup",
+    "模板",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Atlanstis/rollup-library-base.git"
+  },
+  "homepage": "https://github.com/Atlanstis/rollup-library-base",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.1",
     "@rollup/plugin-node-resolve": "^13.3.0",
